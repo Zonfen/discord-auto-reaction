@@ -1,0 +1,12 @@
+C:\Users\Tony Pepic\Documents\discord-auto-react\discord-auto-react\discord-auto-react\bin\Debug\netcoreapp3.1\discord-auto-react.exe
+C:\Users\Tony Pepic\Documents\discord-auto-react\discord-auto-react\discord-auto-react\bin\Debug\netcoreapp3.1\discord-auto-react.deps.json
+C:\Users\Tony Pepic\Documents\discord-auto-react\discord-auto-react\discord-auto-react\bin\Debug\netcoreapp3.1\discord-auto-react.runtimeconfig.json
+C:\Users\Tony Pepic\Documents\discord-auto-react\discord-auto-react\discord-auto-react\bin\Debug\netcoreapp3.1\discord-auto-react.runtimeconfig.dev.json
+C:\Users\Tony Pepic\Documents\discord-auto-react\discord-auto-react\discord-auto-react\bin\Debug\netcoreapp3.1\discord-auto-react.dll
+C:\Users\Tony Pepic\Documents\discord-auto-react\discord-auto-react\discord-auto-react\bin\Debug\netcoreapp3.1\discord-auto-react.pdb
+C:\Users\Tony Pepic\Documents\discord-auto-react\discord-auto-react\discord-auto-react\obj\Debug\netcoreapp3.1\discord-auto-react.csprojAssemblyReference.cache
+C:\Users\Tony Pepic\Documents\discord-auto-react\discord-auto-react\discord-auto-react\obj\Debug\netcoreapp3.1\discord-auto-react.AssemblyInfoInputs.cache
+C:\Users\Tony Pepic\Documents\discord-auto-react\discord-auto-react\discord-auto-react\obj\Debug\netcoreapp3.1\discord-auto-react.AssemblyInfo.cs
+C:\Users\Tony Pepic\Documents\discord-auto-react\discord-auto-react\discord-auto-react\obj\Debug\netcoreapp3.1\discord-auto-react.dll
+C:\Users\Tony Pepic\Documents\discord-auto-react\discord-auto-react\discord-auto-react\obj\Debug\netcoreapp3.1\discord-auto-react.pdb
+C:\Users\Tony Pepic\Documents\discord-auto-react\discord-auto-react\discord-auto-react\obj\Debug\netcoreapp3.1\discord-auto-react.genruntimeconfig.cache

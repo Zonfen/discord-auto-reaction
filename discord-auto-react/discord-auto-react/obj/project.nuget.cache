@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "gtmMVnNPEsJBYpQ6d608d6sCvTPATaaW3zwZdZW7ipQx2cd7tXg+wuvsZv8HRETwK7N5TaiYSyY6D3Svqxncfw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Tony Pepic\\Documents\\discord-auto-react\\discord-auto-react\\discord-auto-react\\discord-auto-react.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Tony Pepic\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
