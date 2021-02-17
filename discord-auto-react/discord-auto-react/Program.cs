@@ -1,6 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
 
@@ -10,27 +11,16 @@ namespace discord_auto_react
     {
         private static readonly HttpClient client = new HttpClient();
         private static int version = 8;
-        private static string baseUrl = "https://discord.com/api/v/" + version + "/" ;
+        private static string baseUrl = "https://discord.com/api/v" + version + "/" ;
         private static string authToken = "";
 
         async static Task Main()
         {
             try
             {
+                var responseString = await Login("tonypepic@hotmail.com", "Thefed911@");
 
-                HttpResponseMessage response = await client.GetAsync("http://www.contoso.com/");
-                response.EnsureSuccessStatusCode();
-                var values = new Dictionary<string, string>
-                {
-                    { "thing1", "hello" },
-                    { "thing2", "world" }
-                };
-
-                var content = new FormUrlEncodedContent(values);
-
-                var responseString = await response.Content.ReadAsStringAsync();
-
-                Initiate();
+                Console.WriteLine("Testing what the response string is: ", responseString);
 
             }
             catch (HttpRequestException e)
@@ -39,11 +29,6 @@ namespace discord_auto_react
                 Console.WriteLine("Message :{0} ", e.Message);
             }
         }   
-
-        private static void Initiate()
-        {
-            Console.WriteLine("Hello World!");
-        }
 
         private static void PostReaction()
         {
@@ -63,11 +48,20 @@ namespace discord_auto_react
                 { "undelete", "false" }
             };
 
-            var content = new FormUrlEncodedContent(payload);
+            var httpRequestMessage = new HttpRequestMessage
+            {
+                Method = HttpMethod.Post,
+                RequestUri = new Uri(baseUrl + uri),
+                Headers = {
+                    { HttpRequestHeader.Accept.ToString(), "application/json" },
+                    { "X-Version", "1" }
+                },
+                Content = new StringContent(JsonConvert.SerializeObject(payload))
+            };
 
-            await client.PostAsync(baseUrl + uri, content);
+            var response = client.SendAsync(httpRequestMessage).Result;
 
-            return "";
+            return response.ToString();
         }
     }
 }

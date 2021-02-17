@@ -10,3 +10,6 @@ C:\Users\Tony Pepic\Documents\discord-auto-react\discord-auto-react\discord-auto
 C:\Users\Tony Pepic\Documents\discord-auto-react\discord-auto-react\discord-auto-react\obj\Debug\netcoreapp3.1\discord-auto-react.dll
 C:\Users\Tony Pepic\Documents\discord-auto-react\discord-auto-react\discord-auto-react\obj\Debug\netcoreapp3.1\discord-auto-react.pdb
 C:\Users\Tony Pepic\Documents\discord-auto-react\discord-auto-react\discord-auto-react\obj\Debug\netcoreapp3.1\discord-auto-react.genruntimeconfig.cache
+C:\Users\Tony Pepic\Documents\discord-auto-react\discord-auto-react\discord-auto-react\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Tony Pepic\Documents\discord-auto-react\discord-auto-react\discord-auto-react\obj\Debug\netcoreapp3.1\discord-auto-react.csproj.CoreCompileInputs.cache
+C:\Users\Tony Pepic\Documents\discord-auto-react\discord-auto-react\discord-auto-react\obj\Debug\netcoreapp3.1\discord-auto-react.csproj.CopyComplete
